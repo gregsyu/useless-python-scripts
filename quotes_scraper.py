@@ -23,8 +23,8 @@ def main():
         print(v[1][1])  # prints quote
         splitted = v[0].split()
         print(f" ~ {splitted[1]}, {splitted[0]}\n")  # Inverts name
-    print("-" * 32)
-    print([v[1][0] for v in ranking])
+    # print("-" * 32)
+    # print([v[1][0] for v in ranking])
 
 
 if __name__ == "__main__":
